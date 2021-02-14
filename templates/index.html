@@ -1,0 +1,19 @@
+{% extends 'layouts/base.html' %}
+
+{% block js %}
+
+{% endblock %}
+
+{% block body %}
+
+<div class="center">
+    <form action="login" method="post" id=form>
+        <input class="input" type="email" required name="email" id="email"/>
+        <input class="input" type="password" required name="password" id="password"/>
+        <div>
+            <button class="button" type="submit">Login</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
